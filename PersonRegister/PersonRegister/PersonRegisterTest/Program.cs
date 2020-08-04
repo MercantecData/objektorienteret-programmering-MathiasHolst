@@ -8,19 +8,18 @@ namespace PersonRegisterTest
     {
         static void Main(string[] args)
         {
+            RegisterFunktioner funktioner = new RegisterFunktioner();
             Job job1 = new Job("Astronaut", "SpaceX", 100000);
             Person person1 = new Person("Timmy", 33, job1);
             Job job2 = new Job("Hitman", "classified", 0);
             Person person2 = new Person("Solotov", 41, job2);
 
-            var testList = person1.listOfPeople;
+            funktioner.AddToList(person1);
+            funktioner.AddToList(person2);
 
-            testList.Add(person1);
-            testList.Add(person2);
-
-            for(int i = 0; i < testList.Count; i++)
+            for(int i = 0; i < funktioner.listOfPeople.Count; i++)
             {
-                Console.WriteLine(testList[i].name);
+                Console.WriteLine(funktioner.listOfPeople[i].name);
             }
             
             person1.job.salary = 999999;

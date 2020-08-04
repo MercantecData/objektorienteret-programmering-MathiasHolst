@@ -4,9 +4,7 @@ using System.Collections.Generic;
 namespace PersonRegister
 {
     public class Person
-    {
-       public List<Person> listOfPeople = new List<Person>();
-       
+    {  
        public string name;
        public int age;
        public Job job;
