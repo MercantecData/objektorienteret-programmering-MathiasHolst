@@ -9,28 +9,21 @@ namespace PersonRegisterTest
         static void Main(string[] args)
         {
             Job job1 = new Job("Astronaut", "SpaceX", 100000);
-            person person1 = new person("Timmy", 33, job1);
+            Person person1 = new Person("Timmy", 33, job1);
             Job job2 = new Job("Hitman", "classified", 0);
-            person person2 = new person("Solotov", 41, job2);
+            Person person2 = new Person("Solotov", 41, job2);
 
-            List<person> listOfPeople = new List<person>();
+            var testList = person1.listOfPeople;
 
-            listOfPeople.Add(person1);
-            listOfPeople.Add(person2);
+            testList.Add(person1);
+            testList.Add(person2);
 
-            for(int i = 0; i < listOfPeople.Count; i++)
+            for(int i = 0; i < testList.Count; i++)
             {
-                Console.WriteLine(listOfPeople[i].name);
+                Console.WriteLine(testList[i].name);
             }
             
-
             person1.job.salary = 999999;
-
-            //Console.WriteLine(person1.name);
-            //Console.WriteLine(person1.age);
-            //Console.WriteLine(person1.job.jobtitle);
-            //Console.WriteLine(person1.job.salary);
-
 
             var navnOgAlder = new Dictionary<string, int>();
 

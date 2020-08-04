@@ -3,44 +3,26 @@ using System.Collections.Generic;
 
 namespace PersonRegister
 {
-    public class person
+    public class Person
     {
+       public List<Person> listOfPeople = new List<Person>();
+       
        public string name;
        public int age;
        public Job job;
 
-        public person(string name, int age, Job job)
+        public Person(string name, int age, Job job)
        {
             this.name = name;
             this.age = age;
             this.job = job;
        }
 
-       public person(int age, Job job)
+       public Person(int age, Job job)
        {
            this.name = "Classified";
            this.age = age;
            this.job = job;
        }
-    }
-    public class Job
-    {
-        public string jobtitle;
-        public string orgName;
-        public int salary;
-
-        public Job(string jobtitle, string orgName, int salary)
-        {
-            this.jobtitle = jobtitle;
-            this.orgName = orgName;
-            this.salary = salary;
-        }
-
-        public Job(string jobtitle, string orgName)
-        {
-            this.jobtitle = jobtitle;
-            this.orgName = orgName;
-            this.salary = 0;
-        }
     }
 }
