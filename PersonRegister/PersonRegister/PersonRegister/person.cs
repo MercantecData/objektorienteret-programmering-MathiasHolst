@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace PersonRegister
 {
@@ -8,11 +9,18 @@ namespace PersonRegister
        public int age;
        public Job job;
 
-       public person(string name, int age, Job job)
+        public person(string name, int age, Job job)
        {
             this.name = name;
             this.age = age;
             this.job = job;
+       }
+
+       public person(int age, Job job)
+       {
+           this.name = "Classified";
+           this.age = age;
+           this.job = job;
        }
     }
     public class Job
@@ -26,6 +34,13 @@ namespace PersonRegister
             this.jobtitle = jobtitle;
             this.orgName = orgName;
             this.salary = salary;
+        }
+
+        public Job(string jobtitle, string orgName)
+        {
+            this.jobtitle = jobtitle;
+            this.orgName = orgName;
+            this.salary = 0;
         }
     }
 }
