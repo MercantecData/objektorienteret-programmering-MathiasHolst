@@ -16,6 +16,7 @@ namespace PersonRegisterTest
 
             funktioner.AddToList(person1);
             funktioner.AddToList(person2);
+            //funktioner.RemoveFromList(person2);
 
             for(int i = 0; i < funktioner.listOfPeople.Count; i++)
             {
@@ -24,15 +25,15 @@ namespace PersonRegisterTest
             
             person1.job.salary = 999999;
 
-            var navnOgAlder = new Dictionary<string, int>();
+            funktioner.navnOgAlder["Timmy"] = 33;
+            funktioner.navnOgAlder["Solotov"] = 41;
 
-            navnOgAlder["Timmy"] = 33;
-            navnOgAlder["Solotov"] = 41;
+            string s = Console.ReadLine();
 
-            Console.WriteLine($"Timmy is {navnOgAlder["Timmy"]} years old.");
-            //Timmy's birthday
-            navnOgAlder["Timmy"] += 1;
-            Console.WriteLine($"It was Timmy's birthday yesterday and he is now {navnOgAlder["Timmy"]}.");
+            Console.WriteLine($"{s} is {funktioner.navnOgAlder[s]} years old.");
+            //The chosen's birthday
+            funktioner.navnOgAlder[s] += 1;
+            Console.WriteLine($"It was {s}'s birthday yesterday and he is now {funktioner.navnOgAlder[s]}.");
         }
     }
 }
