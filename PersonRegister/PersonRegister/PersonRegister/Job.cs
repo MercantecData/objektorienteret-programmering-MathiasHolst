@@ -20,7 +20,7 @@ namespace PersonRegister
         public Job(string jobtitle, int salary)
         {
             this.jobtitle = jobtitle;
-            this.orgName = "Unknown";
+            orgName = "Unknown";
             this.salary = salary;
         }
     }

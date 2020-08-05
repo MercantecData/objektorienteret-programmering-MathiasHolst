@@ -10,7 +10,7 @@ namespace PersonRegisterTest
         {
             RegisterFunktioner funktioner = new RegisterFunktioner();
             Job job1 = new Job("Astronaut", "SpaceX", 100000);
-            Person person1 = new Person("Timmy", 33, job1);
+            Person person1 = new Person("Timmy", 33, job1, "America");
             Job job2 = new Job("Hitman", "classified", 0);
             Person person2 = new Person("Solotov", 41, job2);
 
@@ -25,15 +25,15 @@ namespace PersonRegisterTest
             
             person1.job.salary = 999999;
 
-            funktioner.navnOgAlder["Timmy"] = 33;
-            funktioner.navnOgAlder["Solotov"] = 41;
+            funktioner.navnOgAlderDic["Timmy"] = 33;
+            funktioner.navnOgAlderDic["Solotov"] = 41;
 
             string s = Console.ReadLine();
 
-            Console.WriteLine($"{s} is {funktioner.navnOgAlder[s]} years old.");
+            Console.WriteLine($"{s} is {funktioner.navnOgAlderDic[s]} years old.");
             //The chosen's birthday
-            funktioner.navnOgAlder[s] += 1;
-            Console.WriteLine($"It was {s}'s birthday yesterday and he is now {funktioner.navnOgAlder[s]}.");
+            funktioner.navnOgAlderDic[s] += 1;
+            Console.WriteLine($"It is {s}'s birthday today and he is turning {funktioner.navnOgAlderDic[s]}!");
         }
     }
 }
