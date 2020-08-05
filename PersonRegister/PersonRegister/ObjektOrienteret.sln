@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingMath", "Overload
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeppe's ObjektFraVærelse", "Jeppe's ObjektFraVærelse\Jeppe's ObjektFraVærelse.csproj", "{94123D08-02EE-47D9-84CF-60EE3BD9595C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkoleSystem", "SkoleSystem\SkoleSystem.csproj", "{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkoleSystemTest", "SkoleSystemTest\SkoleSystemTest.csproj", "{AF8327DF-0443-4BFA-8170-A03410F36656}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8327DF-0443-4BFA-8170-A03410F36656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8327DF-0443-4BFA-8170-A03410F36656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8327DF-0443-4BFA-8170-A03410F36656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8327DF-0443-4BFA-8170-A03410F36656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
