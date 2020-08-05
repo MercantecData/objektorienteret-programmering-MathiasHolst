@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRegisterTest", "Perso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryMedTalOgBools", "DictionaryMedTalOgBools\DictionaryMedTalOgBools.csproj", "{748C649E-F3BA-450C-8DE8-AC7DC155CD94}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingMath", "OverloadingMath\OverloadingMath.csproj", "{961F8D3E-2D35-4200-A191-7445E802ACFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeppe's ObjektFraVærelse", "Jeppe's ObjektFraVærelse\Jeppe's ObjektFraVærelse.csproj", "{94123D08-02EE-47D9-84CF-60EE3BD9595C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{748C649E-F3BA-450C-8DE8-AC7DC155CD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{748C649E-F3BA-450C-8DE8-AC7DC155CD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{748C649E-F3BA-450C-8DE8-AC7DC155CD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{961F8D3E-2D35-4200-A191-7445E802ACFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961F8D3E-2D35-4200-A191-7445E802ACFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961F8D3E-2D35-4200-A191-7445E802ACFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961F8D3E-2D35-4200-A191-7445E802ACFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94123D08-02EE-47D9-84CF-60EE3BD9595C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
