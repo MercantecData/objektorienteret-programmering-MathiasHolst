@@ -15,5 +15,19 @@ namespace SkoleSystem
             this.isBooked = isBooked;
             this.whoBooked = whoBooked;
         }
+
+        public Room(int roomNum, bool isBooked)
+        {
+            this.roomNum = roomNum;
+            this.isBooked = isBooked;
+            whoBooked = null;
+        }
+
+        public Room(bool isBooked, Course whoBooked)
+        {
+            roomNum = 0;
+            this.isBooked = isBooked;
+            this.whoBooked = whoBooked;
+        }
     }
 }
