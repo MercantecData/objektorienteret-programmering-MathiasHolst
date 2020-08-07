@@ -9,13 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PersonRegisterTest", "Perso
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DictionaryMedTalOgBools", "DictionaryMedTalOgBools\DictionaryMedTalOgBools.csproj", "{748C649E-F3BA-450C-8DE8-AC7DC155CD94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadingMath", "OverloadingMath\OverloadingMath.csproj", "{961F8D3E-2D35-4200-A191-7445E802ACFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OverloadingMath", "OverloadingMath\OverloadingMath.csproj", "{961F8D3E-2D35-4200-A191-7445E802ACFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jeppe's ObjektFraVærelse", "Jeppe's ObjektFraVærelse\Jeppe's ObjektFraVærelse.csproj", "{94123D08-02EE-47D9-84CF-60EE3BD9595C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jeppe's ObjektFraVærelse", "Jeppe's ObjektFraVærelse\Jeppe's ObjektFraVærelse.csproj", "{94123D08-02EE-47D9-84CF-60EE3BD9595C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkoleSystem", "SkoleSystem\SkoleSystem.csproj", "{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkoleSystem", "SkoleSystem\SkoleSystem.csproj", "{AA1D0BBD-CCC5-49A1-A6E3-B9AE1AA3BE65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkoleSystemTest", "SkoleSystemTest\SkoleSystemTest.csproj", "{AF8327DF-0443-4BFA-8170-A03410F36656}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkoleSystemTest", "SkoleSystemTest\SkoleSystemTest.csproj", "{AF8327DF-0443-4BFA-8170-A03410F36656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate+LambdaExpressions", "Delegate+LambdaExpressions\Delegate+LambdaExpressions.csproj", "{9A80176A-80C6-4C9F-8689-9EE5E7EDCC54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{AF8327DF-0443-4BFA-8170-A03410F36656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF8327DF-0443-4BFA-8170-A03410F36656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF8327DF-0443-4BFA-8170-A03410F36656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A80176A-80C6-4C9F-8689-9EE5E7EDCC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A80176A-80C6-4C9F-8689-9EE5E7EDCC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A80176A-80C6-4C9F-8689-9EE5E7EDCC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A80176A-80C6-4C9F-8689-9EE5E7EDCC54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
