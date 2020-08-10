@@ -6,6 +6,8 @@ namespace OverloadingMath
 {
     class Math
     {
+        public delegate float plusFloatDel(float a, float b);
+        public delegate int plusIntExp(int a, int b);
         public float plus(float a, float b)
         {
             return a + b;

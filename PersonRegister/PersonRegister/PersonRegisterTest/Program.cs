@@ -26,7 +26,7 @@ namespace PersonRegisterTest
             person1.job.salary = 999999;
 
             funktioner.navnOgAlderDic["Timmy"] = 33;
-            funktioner.navnOgAlderDic["Solotov"] = 41;
+            funktioner.navnOgAlderDic["Peter"] = 41;
 
             string s = Console.ReadLine();
 
