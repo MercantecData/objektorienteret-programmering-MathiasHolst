@@ -6,7 +6,12 @@ namespace SkoleSystem
 {
     public class Employee : Person
     {
-        public bool salaryPayed;
+        private bool salaryPayed;
+        public bool SalaryPayed
+        {
+            get { return salaryPayed; }
+            set { salaryPayed = value; }
+        }
         
         public Employee(string name, int age, bool salaryPayed, Course course)
         {

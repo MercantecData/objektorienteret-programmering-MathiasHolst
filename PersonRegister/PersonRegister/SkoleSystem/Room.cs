@@ -6,9 +6,14 @@ namespace SkoleSystem
 {
     public class Room
     {
-        public int roomNum;
-        public bool isBooked;
-        public Course whoBooked;
+        private int roomNum;
+        public int RoomNum
+        {
+            get { return roomNum; }
+            set { roomNum = value; }
+        }
+        private bool isBooked;
+        private Course whoBooked;
         public Room(int roomNum, bool isBooked, Course whoBooked)
         {
             this.roomNum = roomNum;

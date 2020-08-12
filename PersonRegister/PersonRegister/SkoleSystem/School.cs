@@ -6,7 +6,7 @@ namespace SkoleSystem
 {
     public class School
     {
-        public string name;
+        private string name;
         public List<Employee> employees = new List<Employee>();
         public School(string name)
         {
@@ -36,23 +36,23 @@ namespace SkoleSystem
         public void addCourse(Course course, string name, int roomNum, Employee teacher)
         {
             Course navn = new Course(name, roomNum, teacher);
-            navn.teacher = teacher;
-            navn.roomNum = roomNum;
-            navn.name = name;
+            navn.Teacher = teacher;
+            navn.RoomNum = roomNum;
+            navn.Name = name;
         }
 
         public void removeCourse(Course course)
         {
-            course.teacher = null;
-            course.roomNum = 0;
-            course.name = null;
+            course.Teacher = null;
+            course.RoomNum = 0;
+            course.Name = null;
         }
 
         public void ansatteListe()
         {
             for (int i = 0; i < employees.Count(); i++)
             {
-                Console.WriteLine($"{employees[i].name} og det hold han har {employees[i].course.name}. Hans løn er betalt: {employees[i].salaryPayed}");
+                Console.WriteLine($"{employees[i].name} og det hold han har {employees[i].course.Name}. Hans løn er betalt: {employees[i].SalaryPayed}");
             }
         }
     }

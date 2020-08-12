@@ -7,10 +7,26 @@ namespace SkoleSystem
 {
     public class Course
     {
-        public string name;
-        public int roomNum;
-        public Employee teacher;
+        private string name;
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
+        }
+        private int roomNum;
+        public int RoomNum
+        {
+            get { return roomNum; }
+            set { roomNum = value; }
+        }
+        private Employee teacher;
+        public Employee Teacher
+        {
+            get { return teacher; }
+            set { teacher = value; }
+        }
         public List<Student> courseStudents = new List<Student>();
+        
         public Course(string name, int roomNum, Employee teacher)
         {
             this.name = name;

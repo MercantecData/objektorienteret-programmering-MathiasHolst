@@ -15,14 +15,14 @@ namespace SkoleSystemTest
             //Her laver vi et helt hold med underviser, elever, et kursus og det lokale de skal bruge
             Course fodbold = new Course("Fodbold I", 307);
             Employee ansat1 = new Employee("Søren", 26, true, fodbold);
-            fodbold.teacher = ansat1; 
+            fodbold.Teacher = ansat1; 
             Student elev1 = new Student("Kim", 17, ansat1, fodbold);
             Student elev2 = new Student("John", 19, ansat1, fodbold);
 
             //Vi opretter endnu et hold med underviser, elever, et kursus og angiver det lokale de skal bruge
             Course basketball = new Course("BasketBall II", 309);
             Employee ansat2 = new Employee("Michael", 37, true, basketball);
-            basketball.teacher = ansat2;
+            basketball.Teacher = ansat2;
             Student elev3 = new Student("Brian", 27, ansat2, basketball);
             Student elev4 = new Student("Jan", 23, ansat2, basketball);
 
@@ -32,8 +32,8 @@ namespace SkoleSystemTest
             Room rum311 = new Room(311, false);
 
             //Tilføjer rummet til kurserne
-            fodbold.roomNum = rum307.roomNum;
-            basketball.roomNum = rum309.roomNum;
+            fodbold.RoomNum = rum307.RoomNum;
+            basketball.RoomNum = rum309.RoomNum;
 
             //Nedenstående viser hvordan en underviser bliver meldt på et hold
             sportCollege.addEmployee(ansat1);
@@ -54,10 +54,10 @@ namespace SkoleSystemTest
 
             //Fjerner et kursus fra skolen
             sportCollege.removeCourse(basketball);
-            Console.WriteLine($"{basketball.name} = null");
+            Console.WriteLine($"{basketball.Name} = null");
 
             //Tilføjer et kursus til skolen
-            Course baseball = new Course("baseball", rum311.roomNum, ansat1);
+            Course baseball = new Course("baseball", rum311.RoomNum, ansat1);
         }
     }
 }
