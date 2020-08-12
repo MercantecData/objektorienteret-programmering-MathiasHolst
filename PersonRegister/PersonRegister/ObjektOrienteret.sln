@@ -19,11 +19,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkoleSystemTest", "SkoleSys
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Delegate+LambdaExpressions", "Delegate+LambdaExpressions\Delegate+LambdaExpressions.csproj", "{9A80176A-80C6-4C9F-8689-9EE5E7EDCC54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerSuperClass", "ComputerSuperClass\ComputerSuperClass.csproj", "{D0F3F9AB-8E7F-437B-A6C1-3B7732EED1B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerSuperClass", "ComputerSuperClass\ComputerSuperClass.csproj", "{D0F3F9AB-8E7F-437B-A6C1-3B7732EED1B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComputerSuperClassTest", "ComputerSuperClassTest\ComputerSuperClassTest.csproj", "{47D9FC54-4E8A-4163-A0A2-26E0C095C1B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerSuperClassTest", "ComputerSuperClassTest\ComputerSuperClassTest.csproj", "{47D9FC54-4E8A-4163-A0A2-26E0C095C1B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassAndInterfaces", "AbstractClassAndInterfaces\AbstractClassAndInterfaces.csproj", "{B3DF8996-68E7-4473-B440-9EF7706EB885}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassAndInterfaces", "AbstractClassAndInterfaces\AbstractClassAndInterfaces.csproj", "{B3DF8996-68E7-4473-B440-9EF7706EB885}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingTest", "MultithreadingTest\MultithreadingTest.csproj", "{621C3CED-0463-4E2C-9947-69EAAF770987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{B3DF8996-68E7-4473-B440-9EF7706EB885}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3DF8996-68E7-4473-B440-9EF7706EB885}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3DF8996-68E7-4473-B440-9EF7706EB885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621C3CED-0463-4E2C-9947-69EAAF770987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621C3CED-0463-4E2C-9947-69EAAF770987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621C3CED-0463-4E2C-9947-69EAAF770987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621C3CED-0463-4E2C-9947-69EAAF770987}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
