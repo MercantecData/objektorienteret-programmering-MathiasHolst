@@ -25,9 +25,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComputerSuperClassTest", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClassAndInterfaces", "AbstractClassAndInterfaces\AbstractClassAndInterfaces.csproj", "{B3DF8996-68E7-4473-B440-9EF7706EB885}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreading", "Multithreading\Multithreading.csproj", "{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multithreading", "Multithreading\Multithreading.csproj", "{55DD6125-25F7-468E-B0B7-C44DC13F7BA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultithreadingTest", "MultithreadingTest\MultithreadingTest.csproj", "{621C3CED-0463-4E2C-9947-69EAAF770987}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultithreadingTest", "MultithreadingTest\MultithreadingTest.csproj", "{621C3CED-0463-4E2C-9947-69EAAF770987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassAndInterfacesTest", "AbstractClassAndInterfacesTest\AbstractClassAndInterfacesTest.csproj", "{536DA47C-6317-413F-A8A0-708726A6B6E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{621C3CED-0463-4E2C-9947-69EAAF770987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{621C3CED-0463-4E2C-9947-69EAAF770987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{621C3CED-0463-4E2C-9947-69EAAF770987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536DA47C-6317-413F-A8A0-708726A6B6E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536DA47C-6317-413F-A8A0-708726A6B6E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536DA47C-6317-413F-A8A0-708726A6B6E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536DA47C-6317-413F-A8A0-708726A6B6E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

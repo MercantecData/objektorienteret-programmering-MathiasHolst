@@ -4,8 +4,9 @@ using System.Text;
 
 namespace AbstractClassAndInterfaces
 {
-    public class SupClass2 : AbstractClass, IMathInterface
+    public class SupClass2 : AbstractClass, IMathInterface, IComparable
     {
+
         int IMathInterface.plus2()
         {
             return 10 + 2;
@@ -23,6 +24,11 @@ namespace AbstractClassAndInterfaces
         public override int AbstractFunc()
         {
             return 2;
+        }
+
+        public int CompareTo(object obj)
+        {
+            throw new NotImplementedException();
         }
     }
 }
